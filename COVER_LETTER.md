@@ -1,6 +1,6 @@
 Hi,
 
-Your transcription dropping on Edge — and intermittently on Chrome — is almost always a Web Speech API lifecycle issue (the recognition object silently dying between silence gaps). I built a working version of this before reaching out: {VERCEL_URL}
+Your transcription dropping on Edge — and intermittently on Chrome — is almost always a Web Speech API lifecycle issue (the recognition object silently dying between silence gaps). I built a working version of this before reaching out: https://meeting-copilot-taupe.vercel.app
 
 The demo shows live transcription with real-time AI response suggestions across 1:1 meetings, sales calls, and presentations — the three call types you named.
 

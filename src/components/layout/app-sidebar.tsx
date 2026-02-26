@@ -7,6 +7,10 @@ import { cn } from "@/lib/utils";
 import { APP_CONFIG } from "@/lib/config";
 import {
   LayoutDashboard,
+  Mic,
+  FileText,
+  Brain,
+  CheckSquare,
   ChevronLeft,
   ChevronRight,
   Lightbulb,
@@ -23,9 +27,11 @@ import {
 // ═══════════════════════════════════════════════════════════════════════════
 
 const navItems = [
-  { href: "/", label: "Dashboard", icon: LayoutDashboard },
-  // Dashboard Builder agent: add 3-5 feature page nav items here.
-  // Example: { href: "/orders", label: "Orders", icon: ShoppingCart },
+  { href: "/", label: "Meeting Hub", icon: LayoutDashboard },
+  { href: "/recordings", label: "Recordings", icon: Mic },
+  { href: "/transcripts", label: "Transcripts", icon: FileText },
+  { href: "/coaching", label: "AI Coaching", icon: Brain },
+  { href: "/action-items", label: "Action Items", icon: CheckSquare },
 ];
 
 function SidebarLogo({ collapsed }: { collapsed: boolean }) {
